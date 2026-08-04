@@ -37,13 +37,15 @@ When the Close button is pressed:
 
 ## Pin Connections
 
-| Component | ESP32 Pin |
-|-----------|-----------|
+| Component | Connection |
+|-----------|------------|
 | Servo Signal | GPIO 18 |
-| Blue LED | GPIO 26 |
-| Red LED | GPIO 27 |
 | Servo VCC | 5V |
 | Servo GND | GND |
+| Blue LED Anode (+) | GPIO 26 |
+| Blue LED Cathode (-) | 220Ω Resistor → GND |
+| Red LED Anode (+) | GPIO 27 |
+| Red LED Cathode (-) | 220Ω Resistor → GND |
 
 ---
 
